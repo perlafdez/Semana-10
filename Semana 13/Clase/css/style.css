@@ -1,0 +1,259 @@
+body {
+	background-color: black;
+	color: white;
+	font-family: Ubuntu Condensed, sans-serif;
+}
+
+#wrapper {
+	width: 990px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	clear: both;
+}
+
+header h1 {
+	float: left;
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+header img {
+	width: 100%;
+}
+
+nav {
+	float: right;
+	margin: 25px;
+}
+
+nav ul {
+	padding: 10px;
+}
+
+nav ul li {
+	display: inline;
+	margin: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}
+
+/*main*/
+
+#main {
+	border: 1px solid rgba(255,255,255,0);
+	width: 100%;
+	background-image: url(image/miike2.png);
+	clear: both;
+	margin-bottom: 30px;
+	clear: both;
+
+}
+
+#main div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main h2 {
+	color: white;
+	font-size: 70px;
+	margin: 50px;
+}
+
+#main button {
+	margin-left: 50px;
+	border-radius: 30px;
+	background-color: rgba(255,255,255,0.1);
+	border: 1px solid white;
+	font-size: 30px;
+	color: white;
+	padding: 10px;
+	margin-bottom: 200px;
+}
+
+/*marketin*/
+
+#marketing {
+	width: 100%;
+	margin: 0 auto;
+	clear: both;
+}
+
+#marketing div {
+	width: 30%;
+	float: left;
+	margin: 15px;
+	margin-bottom: 20px;
+	background-color: #1a1818;
+}
+
+#marketing div img {
+	width: 80%;
+	padding: 30px;
+	border-radius: 200px;
+}
+
+#marketing div h3 {
+	border-bottom: 1px solid white;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	color: #ff5a00;
+	text-align: center;
+}
+
+#marketing div p {
+	text-align: justify;
+	font-family: Dosis, sans-serif;
+	padding: 20px;
+}
+
+#marketing div button {
+    border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.1);
+	border: 1px solid white;
+	margin-left: 100px;
+	margin-bottom: 20px;
+}
+
+
+/*info*/
+
+#info {
+	clear: both;
+	
+}
+
+#info div {
+	width: 50%;
+	float: left;
+	background-color: #1a1818;
+}
+
+#info h2 {
+	font-size: 40px;
+	padding: 10px;
+	color: #ff5a00;
+	margin: 10px;
+}
+
+#info div p {
+	padding: 30px;
+	font-family: Dosis, sans-serif;
+	text-align: justify;
+	font-size: 18px;
+}
+
+#info div button {
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	background-color: rgba(255,255,255,0.1);
+	border: 1px solid white;
+	margin: 10px;
+	margin-bottom: 30px;
+	float: right;
+}
+
+#info div iframe {
+	width: 100%;
+}
+
+/*footer*/
+
+footer {
+	width: 100%;
+	clear: both;
+}
+
+footer div {
+	width: 22%;
+	float: left;
+	margin: 10px;
+}
+
+footer .col-1 img {
+	width: 100%;
+}
+
+footer div ul {
+}
+
+footer div ul li {
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 15px;
+}
+
+footer p {
+	text-align: center;
+}
+
+footer .col-4 p {
+	margin-bottom: 10px;
+}
+
+footer .col-4 ul {
+}
+
+footer .col-4 ul li {
+	color: white;
+	display: inline;
+	line-height: 20px;
+	font-size: 30px;
+	margin: 10px;
+}
+
+footer .col-4 ul li a {
+	color: white;
+}
+
+/*hovers*/
+
+nav ul li a:hover {
+	text-decoration: line-through;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+#main button:hover {
+	text-decoration: line-through;
+	color: #ffffff;
+}
+
+#marketing button:hover {
+	text-decoration: line-through;
+	color: #ffffff;
+}
+
+footer .col-4 ul li a:hover {
+	color: #ff5a00;
+}
+
+/*actives*/
+
+nav ul li a:active {
+	color: #ff5a00;
+}
+
+#main button:active {
+	color: #ff5a00;
+}
+
+#marketing button:active {
+	color: #ff5a00;
+}
+
